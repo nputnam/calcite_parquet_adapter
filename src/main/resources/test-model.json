@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "defaultSchema" : "test",
+  "schemas" : [
+    {
+      "name": "test",
+      "type": "custom",
+      "factory": "com.parquetdb.adapter.parquet.ParquetSchemaFactory"
+    }
+  ]
+}
